@@ -20,7 +20,7 @@ import { UserRoutes } from "../routes/user_routes";
 
 class App {
     public app: express.Application;
-    public mongoUrl: string = 'mongodb+srv://admin:admin@cluster0.wcokv.mongodb.net/JobPosting?retryWrites=true&w=majority' ||
+    public mongoUrl: string = process.env.MONGODB_ATLAS_URL ||
         'mongodb://localhost/' + environment.getDBName();
 
     private test_routes: TestRoutes = new TestRoutes();

@@ -1,4 +1,3 @@
-
 enum Environments {
     local_environment = 'local',
     dev_environment = 'dev',
