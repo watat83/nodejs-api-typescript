@@ -1,0 +1,17 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "target": "es6",
+        "outDir": "./dist",
+        "baseUrl": "./app",
+    },
+    "include": [
+        "app/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
